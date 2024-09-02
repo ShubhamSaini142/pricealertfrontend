@@ -55,6 +55,7 @@ function AlertForm() {
                 <label>Status:</label>
                 <select value={status} onChange={(e) => setStatus(e.target.value)}>
                     <option value="PENDING">PENDING</option>
+                    {/* <option value="COMPLETED">COMPLETED</option> */}
                 </select>
             </div>
             <button type="submit">Create Alert</button>
